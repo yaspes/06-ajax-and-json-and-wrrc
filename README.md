@@ -1,24 +1,22 @@
-```md
+README.md
 # Ajax and JSON
 
 **Author**: Yannick Aspesberro & Amanada Moen
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+This application uses AJAX to grab the local storage data, and renders it into the blog.  If local storage doesn't exist, it will pull the data from the attached JSON file and render that data onto the HTML, and pushes to local storage.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+Must run the page in live server in order for the page to run correctly.
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+HTML, CSS, JavaScript, jQuery, JSON, AJAX, live server, etc.
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
+Wrote the function that checks if local storage exists, if it doesn't, then pull the data from the file, and if it exists, grab it from local storage and render it to the HTML.
+Got the function up and running, no bugs/errors in the console. (Didn't run properly until we tried it on live server.)
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
--->
-```
+https://github.com/sjgeyer/06-ajax-and-json-and-wrrc/tree/master/sarah-ryan Referenced Sarah and Ryan's completed lab.  Went through it line by line, making sure that we understood what was happening, and why.  Did not copy and paste.
